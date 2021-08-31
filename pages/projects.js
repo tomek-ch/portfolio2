@@ -13,11 +13,9 @@ export default function Projects() {
       <h1 className={heading}>
         Some of my personal <span className={highlight}>projects</span>:
       </h1>
-      <div>
-        {data.map((project) => (
-          <ProjectSection key={project.title} {...project} />
-        ))}
-      </div>
+      {data.map((project) => (
+        <ProjectSection key={project.title} {...project} />
+      ))}
     </>
   );
 }
