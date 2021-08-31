@@ -1,0 +1,16 @@
+.highlight {
+  position: relative;
+  z-index: 1;
+}
+
+.highlight::after {
+  content: "";
+  display: block;
+  height: 0.7em;
+  width: 100%;
+  background-color: var(--highlight);
+  position: absolute;
+  top: 0.7em;
+  left: 0;
+  z-index: -1;
+}
