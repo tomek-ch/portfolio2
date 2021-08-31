@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   color: var(--high-contrast);
+  padding: 1em 0;
 }
 
 .header nav {

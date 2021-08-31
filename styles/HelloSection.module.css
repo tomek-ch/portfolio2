@@ -2,6 +2,7 @@
   font-size: 2em;
   font-weight: normal;
   color: var(--high-contrast);
+  margin: 1.5em 0;
 }
 
 .container img {
@@ -26,6 +27,7 @@
   .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .container img {
@@ -35,6 +37,6 @@
   .container p {
     max-width: 350px;
     font-size: 18px;
-    margin-top: 2em;
+    margin-bottom: 2em;
   }
 }
