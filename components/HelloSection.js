@@ -1,12 +1,8 @@
 import EnvelopeIcon from "../public/icons/EnvelopeIcon";
 import GitHubIcon from "../public/icons/GitHubIcon";
 import MediumIcon from "../public/icons/MediumIcon";
-import {
-  container,
-  heading,
-  links,
-  highlight,
-} from "../styles/HelloSection.module.css";
+import { container, links } from "../styles/HelloSection.module.css";
+import { heading, highlight } from "../styles/Heading.module.css";
 
 const HelloSection = () => (
   <section>

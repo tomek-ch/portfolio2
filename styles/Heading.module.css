@@ -1,0 +1,10 @@
+.heading {
+  font-size: 1.7em;
+  font-weight: normal;
+  color: var(--high-contrast);
+  margin: 1.5em 0;
+}
+
+.highlight {
+  background-color: var(--highlight);
+}
