@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>home | tomek-ch</title>
+        <title>projects | tomek-ch</title>
       </Head>
-      <h1>Home</h1>
+      <h1>Projects</h1>
     </>
   );
 }
