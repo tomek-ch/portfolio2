@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Social Network",
+    "description": "Sign up with email and password, edit your profile, post images, follow other users, like, comment, receive notifications.",
+    "tech": ["React", "React Router", "Firebase"],
+    "code": "https://github.com/tomek-ch/very-cool-pics/",
+    "live": "https://very-cool-pics.web.app/",
+    "img": "/images/social-network.png"
+  },
+  {
+    "title": "Chat app",
+    "description": "Sign up with a Google account, search for other users, send text messages and images.",
+    "tech": ["HTML", "JavaScript", "Firebase"],
+    "code": "https://github.com/tomek-ch/chat/",
+    "live": "https://always-in-touch.web.app/",
+    "img": "/images/chat-app.png"
+  },
+  {
+    "title": "Blog platform",
+    "description": "A blog platform for anyone to sign up and write. You can reply to posts and comments and manage unpublished content.",
+    "tech": ["Next.js", "Node.js", "Express.js", "MongoDB"],
+    "code": "https://github.com/tomek-ch/chat/",
+    "live": "https://always-in-touch.web.app/",
+    "img": "/images/blog-platform.png"
+  }
+]
