@@ -1,14 +1,14 @@
 import Head from "next/head";
-import Image from "next/image";
+import HelloSection from "../components/HelloSection";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Head>
         <title>home | tomek-ch</title>
       </Head>
-      <h1>Home</h1>
-    </>
+      <HelloSection />
+    </main>
   );
 }
