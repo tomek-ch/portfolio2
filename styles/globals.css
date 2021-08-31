@@ -36,3 +36,7 @@ a:hover {
   color: var(--highlight);
   transition: all 300ms;
 }
+
+img {
+  border-radius: 5px;
+}
