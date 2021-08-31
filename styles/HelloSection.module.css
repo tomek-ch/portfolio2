@@ -18,6 +18,10 @@
   color: var(--high-contrast);
 }
 
+.highlight {
+  background-color: var(--highlight);
+}
+
 @media (min-width: 800px) {
   .container {
     display: flex;

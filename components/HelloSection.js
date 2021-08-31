@@ -1,14 +1,19 @@
 import EnvelopeIcon from "../public/icons/EnvelopeIcon";
 import GitHubIcon from "../public/icons/GitHubIcon";
 import MediumIcon from "../public/icons/MediumIcon";
-import { container, heading, links } from "../styles/HelloSection.module.css";
+import {
+  container,
+  heading,
+  links,
+  highlight,
+} from "../styles/HelloSection.module.css";
 
 const HelloSection = () => (
   <section>
     <h1 className={heading}>
       Hi, I'm Tomasz Chmielnicki.
       <br />
-      I'm a web developer.
+      I'm a <span className={highlight}>web developer</span>.
     </h1>
     <div className={container}>
       <div>
