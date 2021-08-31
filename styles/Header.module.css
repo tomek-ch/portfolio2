@@ -16,6 +16,12 @@
   font-weight: normal;
 }
 
+.link {
+  border-bottom: 4px solid var(--background);
+  transition: all 300ms;
+}
+
 .activeLink {
   border-bottom: 4px solid var(--highlight);
+  transition: all 300ms;
 }

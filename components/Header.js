@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { header, activeLink } from "../styles/Header.module.css";
+import { header, activeLink, link } from "../styles/Header.module.css";
 import { useRouter } from "next/router";
 
 const Header = () => {
@@ -11,10 +11,10 @@ const Header = () => {
       </h1>
       <nav>
         <Link href="/">
-          <a className={router.asPath === "/" ? activeLink : ""}>home</a>
+          <a className={router.asPath === "/" ? activeLink : link}>home</a>
         </Link>
         <Link href="/projects">
-          <a className={router.asPath === "/projects" ? activeLink : ""}>
+          <a className={router.asPath === "/projects" ? activeLink : link}>
             projects
           </a>
         </Link>
