@@ -17,16 +17,12 @@ const ProjectSection = ({ title, description, tech, img, code, live }) => (
         ))}
       </ul>
       <div className={links}>
-        <Link href={code}>
-          <a>
-            <GitHubIcon small /> Code
-          </a>
-        </Link>
-        <Link href={live}>
-          <a>
-            <LinkIcon small /> Live
-          </a>
-        </Link>
+        <a href={code}>
+          <GitHubIcon small /> Code
+        </a>
+        <a href={live}>
+          <LinkIcon small /> Live
+        </a>
       </div>
     </div>
   </section>
