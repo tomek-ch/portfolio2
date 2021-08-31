@@ -1,7 +1,8 @@
 import Link from "next/link";
+import { header } from "../styles/Header.module.css";
 
 const Header = () => (
-  <header>
+  <header className={header}>
     <h1>
       <Link href="/">tomek-ch</Link>
     </h1>

@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav {
+  display: flex;
+  gap: 2em;
+}
+
+.header h1 {
+  font-size: 1em;
+  font-weight: normal;
+}
