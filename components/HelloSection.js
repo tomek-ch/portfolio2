@@ -1,5 +1,7 @@
-import Image from "next/image";
-import { container, heading } from "../styles/HelloSection.module.css";
+import EnvelopeIcon from "../public/icons/EnvelopeIcon";
+import GitHubIcon from "../public/icons/GitHubIcon";
+import MediumIcon from "../public/icons/MediumIcon";
+import { container, heading, links } from "../styles/HelloSection.module.css";
 
 const HelloSection = () => (
   <section>
@@ -9,12 +11,25 @@ const HelloSection = () => (
       I'm a web developer.
     </h1>
     <div className={container}>
-      <p>
-        I'm passionate about creating great software - anything from intuitive
-        user interfaces and well-organized APIs to neat utilities that get stuff
-        done.
-      </p>
-      <img src="/me.jpeg" alt="me" />
+      <div>
+        <p>
+          I'm passionate about creating great software - anything from intuitive
+          user interfaces and well-organized APIs to neat utilities that get
+          stuff done.
+        </p>
+        <div className={links}>
+          <a href="https://tomek-ch.medium.com/">
+            <MediumIcon />
+          </a>
+          <a href="https://github.com/tomek-ch/">
+            <GitHubIcon />
+          </a>
+          <a href="mailto:chmielnicki18@gmail.com">
+            <EnvelopeIcon />
+          </a>
+        </div>
+      </div>
+      <img src="/images/me.jpeg" alt="me" />
     </div>
   </section>
 );
