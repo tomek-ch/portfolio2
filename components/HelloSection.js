@@ -1,6 +1,6 @@
-import EnvelopeIcon from "../public/icons/EnvelopeIcon";
-import GitHubIcon from "../public/icons/GitHubIcon";
-import MediumIcon from "../public/icons/MediumIcon";
+import EnvelopeIcon from "./icons/EnvelopeIcon";
+import GitHubIcon from "./icons/GitHubIcon";
+import MediumIcon from "./icons/MediumIcon";
 import { container, links } from "../styles/HelloSection.module.css";
 import { heading } from "../styles/Heading.module.css";
 import { highlight } from "../styles/Highlight.module.css";
