@@ -1,5 +1,5 @@
 .heading {
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight: normal;
   color: var(--high-contrast);
   margin: 1.5em 0;
@@ -10,6 +10,7 @@
   max-width: 300px;
   margin: auto;
   display: block;
+  border-radius: 5px;
 }
 
 .links {
@@ -17,15 +18,22 @@
   align-items: center;
   gap: 1.5em;
   color: var(--high-contrast);
+  justify-content: center;
+  margin-bottom: 1.5em;
 }
 
 .highlight {
   background-color: var(--highlight);
 }
 
-@media (min-width: 800px) {
+.container p {
+  margin-bottom: 2em;
+}
+
+@media (min-width: 600px) {
   .container {
     display: flex;
+    gap: 2em;
     justify-content: space-between;
     align-items: center;
   }
@@ -36,7 +44,9 @@
 
   .container p {
     max-width: 350px;
-    font-size: 18px;
-    margin-bottom: 2em;
+  }
+
+  .heading {
+    font-size: 2em;
   }
 }
