@@ -22,5 +22,29 @@
     "code": "https://github.com/tomek-ch/chat/",
     "live": "https://always-in-touch.web.app/",
     "img": "/images/blog-platform.png"
+  },
+  {
+    "title": "Notekeeper",
+    "description": "Add, edit, delete and search for notes and things to do. Mark tasks as completed and they will be put to the bottom.",
+    "tech": ["React", "React Router"],
+    "code": "https://github.com/tomek-ch/notekeeper/",
+    "live": "https://take-a-note-or-two.web.app/",
+    "img": "/images/notekeeper.png"
+  },
+  {
+    "title": "JS library & docs website",
+    "description": "",
+    "tech": ["Gatsby.js", "GraphQL"],
+    "code": "https://github.com/tomek-ch/checc.js/",
+    "live": "https://checcjs.gatsbyjs.io/",
+    "img": "/images/checc.png"
+  },
+  {
+    "title": "Video manager",
+    "description": "",
+    "tech": ["TypeScript", "React", "Redux", "Bootstrap", "Node.js", "Express.js"],
+    "code": "https://github.com/tomek-ch/video-app-redux/",
+    "live": "https://hopeful-feynman-055449.netlify.app/",
+    "img": "/images/video-manager.png"
   }
 ]
