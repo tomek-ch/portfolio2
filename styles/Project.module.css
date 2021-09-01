@@ -48,6 +48,12 @@
   z-index: -1;
 }
 
+.project a {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
 @media (min-width: 900px) {
   .project {
     display: grid;
