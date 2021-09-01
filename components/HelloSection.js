@@ -8,16 +8,16 @@ import { highlight } from "../styles/Highlight.module.css";
 const HelloSection = () => (
   <section>
     <h1 className={heading}>
-      Hi, I'm Tomasz Chmielnicki.
+      Hi, I&apos;m Tomasz Chmielnicki.
       <br />
-      I'm a <span className={highlight}>web developer</span>.
+      I&apos;m a <span className={highlight}>web developer</span>.
     </h1>
     <div className={container}>
       <div>
         <p>
-          I'm passionate about creating great software - anything from intuitive
-          user interfaces and well-organized APIs to neat utilities that get
-          stuff done.
+          I&apos;m passionate about creating great software - anything from
+          intuitive user interfaces and well-organized APIs to neat utilities
+          that get stuff done.
         </p>
         <div className={links}>
           <a href="https://tomek-ch.medium.com/">
