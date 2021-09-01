@@ -1,0 +1,32 @@
+<svg
+  xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 5000 5000"
+  xmlns="http://www.w3.org/2000/svg"
+  style="transform: scale(2.16)"
+>
+  <defs>
+    <filter id="goo">
+      <feColorMatrix
+        in="blur"
+        type="matrix"
+        values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 19 -9"
+        result="good"
+      ></feColorMatrix>
+      <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+    </filter>
+    <path
+      d="M397,308C359,381 282,418 192,397C119,359 82,282 103,192Q149,36 308,103Q464,149 397,308z"
+      id="P0"
+    ></path>
+    <path
+      d="M77,194Q118,11 306,77Q489,118 423,306C385,393 299,440 194,423Q11,382 77,194z"
+      id="P2"
+    ></path>
+  </defs>
+  <rect id="RECT" width="5000" height="5000" fill="#111"></rect>
+  <g id="group" fill="#202020" filter="url(#goo)">
+    <use x="1557" y="1881" href="#P2"></use>
+    <use x="2234" y="1450" href="#P0"></use>
+    <use x="2117" y="1710" href="#P2"></use>
+  </g>
+</svg>
