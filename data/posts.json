@@ -4,7 +4,7 @@
     "description": "Cool ways to make your project more interesting.",
     "link" : {
       "text": "Read on Medium",
-      "url": ""
+      "url": "https://medium.com/swlh/3-easy-css-only-masonry-layouts-acfb64364ad6"
     },
     "img": "/images/masonry-layouts.jpeg"
   },
@@ -13,7 +13,7 @@
     "description": "Validation library built with code reuse in mind",
     "link" : {
       "text": "Checc it out",
-      "url": ""
+      "url": "https://checcjs.gatsbyjs.io/"
     },
     "img": "/images/checc.png"
   }
