@@ -4,6 +4,7 @@ import { heading } from "../styles/Heading.module.css";
 import { highlight } from "../styles/Highlight.module.css";
 import data from "../data/posts.json";
 import PostSection from "../components/PostSection";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         Featured <span className={highlight}>project</span>
       </h2>
       <PostSection {...data.project} reverse />
+      <Contact />
     </main>
   );
 }

@@ -1,0 +1,26 @@
+.contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding-bottom: 4em;
+}
+
+.links {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+}
+
+.contact a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+@media (min-width: 900px) {
+  .links {
+    gap: 5em;
+  }
+}
