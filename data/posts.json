@@ -1,0 +1,20 @@
+{
+  "post": {
+    "title": "CSS only masonry layouts",
+    "description": "Cool ways to make your project more interesting.",
+    "link" : {
+      "text": "Read on Medium",
+      "url": ""
+    },
+    "img": "/images/masonry-layouts.jpeg"
+  },
+  "project": {
+    "title": "Checc.js",
+    "description": "Validation library built with code reuse in mind",
+    "link" : {
+      "text": "Checc it out",
+      "url": ""
+    },
+    "img": "/images/checc.png"
+  }
+}

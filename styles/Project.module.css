@@ -4,7 +4,7 @@
 
 .project img {
   max-width: 100%;
-  margin: 2em 0;
+  margin-top: 2em;
 }
 
 .project ul {
@@ -12,6 +12,9 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.details {
   margin: 2em 0;
 }
 
@@ -52,7 +55,8 @@
     grid-template-columns: 2fr 1fr;
   }
 
-  .project:nth-child(2n) {
+  .project:nth-child(2n),
+  .reverseBlock {
     grid-template-columns: 1fr 2fr;
   }
 
@@ -69,6 +73,9 @@
 
   .project ul {
     justify-content: flex-start;
+  }
+
+  .details {
     margin-top: 0;
   }
 
@@ -76,14 +83,16 @@
     justify-content: start;
   }
 
-  .project:nth-child(2n) .imgWrapper {
+  .project:nth-child(2n) .imgWrapper,
+  .reverseBlock .imgWrapper {
     grid-column: 2/3;
     grid-row: 1/3;
     margin-right: 0;
     margin-left: 4em;
   }
 
-  .project:nth-child(2n) > div {
+  .project:nth-child(2n) > div,
+  .reverseBlock > div {
     grid-column: 1/2;
   }
 }

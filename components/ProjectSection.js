@@ -1,15 +1,20 @@
 import GitHubIcon from "./icons/GitHubIcon";
 import LinkIcon from "./icons/LinkIcon";
-import { project, links, imgWrapper } from "../styles/Project.module.css";
+import {
+  project,
+  links,
+  imgWrapper,
+  details,
+} from "../styles/Project.module.css";
 
-const ProjectSection = ({ title, description, tech, img, code, live }) => (
+const ProjectSection = ({ title, tech, img, code, live }) => (
   <section className={project}>
     <h2>{title}</h2>
     <div className={imgWrapper}>
       <img src={img} alt={`Screenshot of a ${title}`} />
     </div>
     <div>
-      <ul>
+      <ul className={details}>
         {tech.map((tech) => (
           <li key={tech}>{tech}</li>
         ))}
