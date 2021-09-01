@@ -11,6 +11,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
             rel="stylesheet"
           />
+          <link rel="icon" href="/icon.svg" />
         </Head>
         <body>
           <Main />
