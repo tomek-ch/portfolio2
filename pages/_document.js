@@ -12,6 +12,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="icon" href="/icon.svg?" />
+          <meta name="description" content="I create websites and web apps." />
         </Head>
         <body>
           <Main />
