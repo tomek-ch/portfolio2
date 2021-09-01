@@ -16,7 +16,7 @@
 }
 
 .link {
-  border-bottom: 4px solid var(--background);
+  border-bottom: 4px solid transparent;
   transition: all 300ms;
 }
 

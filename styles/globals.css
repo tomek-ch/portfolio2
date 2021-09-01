@@ -5,13 +5,12 @@
 }
 
 :root {
-  --background: #272727;
+  --background: #000000;
   --low-contrast: #9c9c9c;
   --high-contrast: #ffffff;
   --highlight: #0000ff;
 }
 
-html,
 body {
   font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
@@ -20,6 +19,9 @@ body {
   color: var(--low-contrast);
   line-height: 1.7;
   font-size: 16px;
+  background-image: url("/background.svg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 ::selection {
