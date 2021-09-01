@@ -20,13 +20,13 @@ const HelloSection = () => (
           that get stuff done.
         </p>
         <div className={links}>
-          <a href="https://tomek-ch.medium.com/">
+          <a href="https://tomek-ch.medium.com/" aria-label="Medium">
             <MediumIcon />
           </a>
-          <a href="https://github.com/tomek-ch/">
+          <a href="https://github.com/tomek-ch/" aria-label="GitHub">
             <GitHubIcon />
           </a>
-          <a href="mailto:chmielnicki18@gmail.com">
+          <a href="mailto:chmielnicki18@gmail.com" aria-label="Email">
             <EnvelopeIcon />
           </a>
         </div>
