@@ -23,7 +23,7 @@ const Contact = () => (
       </a>
     </div>
     <div>or...</div>
-    <a href="/Tomasz_Chmielnicki_resume">
+    <a href="/Tomasz_Chmielnicki_resume.pdf">
       <UserIcon small /> See my resume
     </a>
   </section>
