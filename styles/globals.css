@@ -19,6 +19,10 @@ body {
   line-height: 1.7;
   font-size: 16px;
   background-color: var(--background);
+  background-image: url("/background.svg");
+  background-attachment: fixed;
+  background-size: 300%;
+  background-position: 30% 0;
 }
 
 ::selection {
@@ -40,10 +44,8 @@ img {
   border-radius: 5px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 600px) {
   body {
-    background-image: url("/background.svg");
     background-size: cover;
-    background-attachment: fixed;
   }
 }
